@@ -24,7 +24,7 @@ class ViewController: UIViewController {
         
         colorView.layer.cornerRadius = 10
         
-        setStertSlider()
+        setStartSlider()
         setStartValue()
         setColor()
         setValue(for: redValue, greenValue, blueValue)
@@ -51,7 +51,7 @@ class ViewController: UIViewController {
         blueValue.text = blueSlider.value.formatted()
     }
     
-    func setStertSlider(){
+    func setStartSlider(){
         redSlider.minimumTrackTintColor = .red
         greenSlider.minimumTrackTintColor = .green
         redSlider.value = 0.8
